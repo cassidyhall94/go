@@ -16,7 +16,7 @@
 
 - Start with determining the percentage of the original price based on the age of the vehicle. Save it in a helper variable. Use an [if-else if-else statement][if-statement] as mentioned in the instructions.
 - In the two if conditions use [comparison operators][comparison-operators] to compare the age of the car to the threshold values.
-- To calculate the result, apply the percentage to the original price. For example `30% of x` can be calculated by dividing `30` by `100` and multiplying with `x`.
+- To calculate the result, apply the percentage to the original price. For example `30% of x` can be calculated by dividing `30` by `100` and multiplying with `x`. (Remember that dividing floats64 by int will return a 0, ensure to add ".0" after the percentage"
 
 [comparison-operators]: https://golang.org/ref/spec#Comparison_operators
 [logical-operators]: https://golang.org/ref/spec#Logical_operators
